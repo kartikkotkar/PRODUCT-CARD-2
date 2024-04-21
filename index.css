@@ -1,0 +1,141 @@
+/* body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+} */
+
+.navbar {
+    background-color: #f8f9fa;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+    color: #007bff;
+}
+
+
+
+
+
+/* .main-container{
+    display:flex;
+    justify-content: space-around;
+    padding: 30px;
+    box-shadow: 0px 0px 10px 0px  #1e0223;
+    background-color: rgb(255, 243, 254);
+    margin-top: 60px;
+    border-radius: 10px;
+    height: 280px;
+    cursor:grabbing;
+}
+.container{
+    background-color:rgb(204, 207, 216);
+    width: 200px;
+    border-radius: 10px;
+    cursor:grab;
+   
+    
+}
+
+.product-title{
+    font-size: medium;
+    color: rgb(106, 110, 73);
+}
+ 
+.product-image{
+    height: 100px;
+    width: 200px;
+    border-radius: 5px;
+    cursor: pointer;
+   
+
+}*/
+
+.product-card {
+    max-width: 500px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: 20px auto;
+    display: flex;
+} 
+
+.product-image {
+    width: 40%;
+    border-radius: 8px 0 0 8px;
+}
+
+.product-details {
+    flex: 1;
+    padding: 20px;
+}
+
+.product-name {
+    font-size: 24px;
+    color: #333;
+    margin: 10px 0;
+}
+
+.product-description {
+    color: #666;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+.product-price {
+    font-size: 20px;
+    color: #333;
+    margin: 10px 0;
+}
+
+.btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+.product-list {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+    font-size: 10px;
+}
+
+.product-item {
+    color: #007bff;
+}
